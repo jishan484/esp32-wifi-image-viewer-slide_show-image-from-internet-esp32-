@@ -2,10 +2,12 @@
 const express = require("express");
 const app = express();
 const request = require('request');
-const url = 'https://picsum.photos/240';
-var uul = "https://cdn.glitch.com/eedb018f-f384-4f9f-82df-cdfeca5ba0be%2Fasas.jpg?v=1579115904898"
 var fs = require('fs')
 const { exec } = require('child_process');
+
+
+const url = 'https://picsum.photos/240';
+var uul = "https://cdn.glitch.com/eedb018f-f384-4f9f-82df-cdfeca5ba0be%2Fasas.jpg?v=1579115904898"
 var next = "";
 
 app.use(express.static("public"));
