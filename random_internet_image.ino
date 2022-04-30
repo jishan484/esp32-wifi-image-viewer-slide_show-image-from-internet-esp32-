@@ -21,9 +21,10 @@
 
 TFT_eSPI tft = TFT_eSPI(135, 240); // Invoke custom library
 
-const char* ssid     = "tnu";
-const char* password = "tnu20170201000";
-const char* host = "shard-mars.glitch.me";
+const char* ssid     = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
+
+const char* host = "https://outrageous-crustacean.glitch.me/";
 uint8_t image[18480] PROGMEM={0};
 void setup()
 {
